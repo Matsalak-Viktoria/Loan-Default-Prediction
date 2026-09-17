@@ -19,11 +19,11 @@ The main objectives of this project are:
 ## Dataset
 - **UniqueID**:	Unique identifier for each customer record.
 - **disbursed_amount**:	Amount of the loan disbursed to the customer.
-- **asset_cost**:	Cost of the asset being financed by the loan.
-- **ltv**:	Loan-to-value (LTV) ratio representing the loan amount relative to the value of the financed asset.
+- **asset_cost**:	Cost of the asset.
+- **ltv**: Loan-to-value of the asset.
 - **branch_id**:	Identifier of the branch where the loan was disbursed.
-- **supplier_id**:	Identifier of the supplier associated with the financed asset.
-- **manufacturer_id**:	Identifier of the manufacturer of the financed asset.
+- **supplier_id**:	Identifier of the supplier.
+- **manufacturer_id**:	Identifier of the manufacturer.
 - **Current_pincode_ID**:	Identifier associated with the customer's current postal area.
 - **Date.of.Birth**:	Customer's date of birth.
 - **Employment.Type**:	Customer's employment type.

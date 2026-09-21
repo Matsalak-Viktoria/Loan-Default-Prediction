@@ -27,7 +27,7 @@ The main objectives of this project are:
 - **Current_pincode_ID**:	Identifier of the customer's current pincode.
 - **Date.of.Birth**:	Customer's date of birth.
 - **Employment.Type**:	Customer's employment type (Salaried/Self Employed).
-- **DisbursalDate**:	Date on which the loan was disbursed.
+- **DisbursalDate**:	Date of loan disbursement.
 - **State_ID**:	Identifier of the state associated with the loan.
 - **Employee_code_ID**:	Identifier of the employee associated with the loan disbursement.
 - **MobileNo_Avl_Flag**:	Indicates whether a mobile phone number is available for the customer.

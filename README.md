@@ -24,9 +24,9 @@ The main objectives of this project are:
 - **branch_id**:	Identifier of the branch where the loan was disbursed.
 - **supplier_id**:	Identifier of the supplier.
 - **manufacturer_id**:	Identifier of the manufacturer.
-- **Current_pincode_ID**:	Identifier associated with the customer's current postal area.
+- **Current_pincode_ID**:	Identifier of the customer's current pincode.
 - **Date.of.Birth**:	Customer's date of birth.
-- **Employment.Type**:	Customer's employment type.
+- **Employment.Type**:	Customer's employment type (Salaried/Self Employed).
 - **DisbursalDate**:	Date on which the loan was disbursed.
 - **State_ID**:	Identifier of the state associated with the loan.
 - **Employee_code_ID**:	Identifier of the employee associated with the loan disbursement.

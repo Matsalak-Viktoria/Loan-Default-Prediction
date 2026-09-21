@@ -32,6 +32,7 @@ The main objectives of this project are:
 - **Employee_code_ID**:	Identifier of the employee associated with the loan disbursement.
 - **MobileNo_Avl_Flag**: Indicates whether a mobile phone number was provided by the customer (0 = No, 1 = Yes).
 - **Aadhar_flag**: Indicates whether Aadhaar was provided by the customer (0 = No, 1 = Yes).
+- Indicates whether the customer provided an Aadhaar (0 = No, 1 = Yes).
 - **PAN_flag**:	Indicates whether PAN was provided by the customer (0 = No, 1 = Yes).
 - **VoterID_flag**:	Indicates whether Voter ID was provided by the customer (0 = No, 1 = Yes).
 - **Driving_flag**:	Indicates whether a driving license was provided by the customer (0 = No, 1 = Yes).

@@ -28,9 +28,9 @@ The main objectives of this project are:
 - **Date.of.Birth**:	Customer's date of birth.
 - **Employment.Type**:	Customer's employment type (Salaried/Self Employed).
 - **DisbursalDate**:	Date of loan disbursement.
-- **State_ID**:	Identifier of the state associated with the loan.
+- **State_ID**:	Identifier of the state.
 - **Employee_code_ID**:	Identifier of the employee associated with the loan disbursement.
-- **MobileNo_Avl_Flag**:	Indicates whether a mobile phone number is available for the customer.
+- **MobileNo_Avl_Flag**: Indicates whether a mobile phone number was provided by the customer (0 = No, 1 = Yes).
 - **Aadhar_flag**:	Indicates whether an Aadhar card is available for the customer.
 - **PAN_flag**:	Indicates whether a PAN card is available for the customer.
 - **VoterID_flag**:	Indicates whether a Voter ID is available for the customer.

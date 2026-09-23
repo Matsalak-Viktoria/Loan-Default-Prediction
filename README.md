@@ -36,20 +36,20 @@ The main objectives of this project are:
 - **VoterID_flag**:	Indicates whether Voter ID was provided by the customer (0 = No, 1 = Yes).
 - **Driving_flag**:	Indicates whether a driving license was provided by the customer (0 = No, 1 = Yes).
 - **Passport_flag**: Indicates whether a passport was provided by the customer (0 = No, 1 = Yes).
-- **PERFORM_CNS.SCORE**:	Credit bureau score representing the customer's credit profile.
-- **PERFORM_CNS.SCORE.DESCRIPTION**:	Categorical description of the customer's credit bureau score.
-- **PRI.NO.OF.ACCTS**:	Total number of primary credit accounts in the customer's credit history.
+- **PERFORM_CNS.SCORE**: Customer's credit bureau score.
+- **PERFORM_CNS.SCORE.DESCRIPTION**: Textual interpretation of the customer's credit bureau score.
+- **PRI.NO.OF.ACCTS**: Number of primary credit accounts.
 - **PRI.ACTIVE.ACCTS**:	Number of active primary credit accounts.
-- **PRI.OVERDUE.ACCTS**:	Number of overdue primary credit accounts.
-- **PRI.CURRENT.BALANCE**:	Total current balance across the customer's primary credit accounts.
-- **PRI.SANCTIONED.AMOUNT**:	Total sanctioned amount across the customer's primary credit accounts.
-- **PRI.DISBURSED.AMOUNT**:	Total disbursed amount across the customer's primary credit accounts.
-- **SEC.NO.OF.ACCTS**:	Total number of secondary credit accounts in the customer's credit history.
+- **PRI.OVERDUE.ACCTS**: Number of overdue primary credit accounts.
+- **PRI.CURRENT.BALANCE**: Current balance of the customer's primary credit accounts.
+- **PRI.SANCTIONED.AMOUNT**: Sanctioned amount of the customer's primary credit accounts.
+- **PRI.DISBURSED.AMOUNT**:	Disbursed amount of the customer's primary credit accounts.
+- **SEC.NO.OF.ACCTS**: Number of secondary credit accounts.
 - **SEC.ACTIVE.ACCTS**:	Number of active secondary credit accounts.
-- **SEC.OVERDUE.ACCTS**:	Number of overdue secondary credit accounts.
-- **SEC.CURRENT.BALANCE**:	Total current balance across the customer's secondary credit accounts.
-- **SEC.SANCTIONED.AMOUNT**:	Total sanctioned amount across the customer's secondary credit accounts.
-- **SEC.DISBURSED.AMOUNT**:	Total disbursed amount across the customer's secondary credit accounts.
+- **SEC.OVERDUE.ACCTS**: Number of overdue secondary credit accounts.
+- **SEC.CURRENT.BALANCE**: Current balance of the customer's secondary credit accounts.
+- **SEC.SANCTIONED.AMOUNT**: Sanctioned amount of the customer's secondary credit accounts.
+- **SEC.DISBURSED.AMOUNT**:	Disbursed amount of the customer's secondary credit accounts.
 - **PRIMARY.INSTAL.AMT**:	Total installment amount associated with primary credit accounts.
 - **SEC.INSTAL.AMT**:	Total installment amount associated with secondary credit accounts.
 - **NEW.ACCTS.IN.LAST.SIX.MONTHS**:	Number of new credit accounts opened in the last six months.

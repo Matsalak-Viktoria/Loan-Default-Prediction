@@ -50,10 +50,10 @@ The main objectives of this project are:
 - **SEC.CURRENT.BALANCE**: Current balance of the customer's secondary credit accounts.
 - **SEC.SANCTIONED.AMOUNT**: Sanctioned amount of the customer's secondary credit accounts.
 - **SEC.DISBURSED.AMOUNT**:	Disbursed amount of the customer's secondary credit accounts.
-- **PRIMARY.INSTAL.AMT**:	Total installment amount associated with primary credit accounts.
-- **SEC.INSTAL.AMT**:	Total installment amount associated with secondary credit accounts.
+- **PRIMARY.INSTAL.AMT**:	Installment amount for primary credit accounts.
+- **SEC.INSTAL.AMT**:	Installment amount for secondary credit accounts.
 - **NEW.ACCTS.IN.LAST.SIX.MONTHS**:	Number of new credit accounts opened in the last six months.
-- **DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS**:	Number of delinquent credit accounts in the last six months.
+- **DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS**: Number of delinquent credit accounts in the last six months.
 - **AVERAGE.ACCT.AGE**:	Average age of the customer's credit accounts.
 - **CREDIT.HISTORY.LENGTH**:	Length of the customer's credit history.
 - **NO.OF_INQUIRIES**:	Number of credit bureau inquiries associated with the customer.

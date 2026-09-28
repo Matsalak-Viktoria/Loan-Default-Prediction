@@ -55,8 +55,8 @@ The main objectives of this project are:
 - **NEW.ACCTS.IN.LAST.SIX.MONTHS**:	Number of new credit accounts opened in the last six months.
 - **DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS**: Number of delinquent credit accounts in the last six months.
 - **AVERAGE.ACCT.AGE**:	Average age of the customer's credit accounts.
-- **CREDIT.HISTORY.LENGTH**:	Length of the customer's credit history.
-- **NO.OF_INQUIRIES**:	Number of credit bureau inquiries associated with the customer.
+- **CREDIT.HISTORY.LENGTH**: Length of the customer's credit history.
+- **NO.OF_INQUIRIES**: Number of inquiries made by the customer.
 - **loan_default**:	Target variable indicating whether the loan defaulted (0 = No Default, 1 = Default).
 
 ## Workflow

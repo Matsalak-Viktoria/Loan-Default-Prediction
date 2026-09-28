@@ -60,6 +60,31 @@ The main objectives of this project are:
 - **loan_default**:	Target variable indicating whether the loan defaulted (0 = No Default, 1 = Default).
 
 ## Workflow
+The project workflow includes:
+1. Exploratory Data Analysis (EDA)
+2. Data Preprocessing
+   - Missing Value Handling
+   - Data Type Conversion
+   - Feature Transformation
+3. Feature Engineering
+4. Feature Selection
+5. LightGBM Model Training and Evaluation
+   - Train/Test Split
+   - Model Training
+   - Model Evaluation using ROC AUC
+6. Hyperparameter Optimization with Optuna
+   - Hyperparameter Search
+   - Best Hyperparameter Selection
+   - Model Re-training with Optimized Hyperparameters
+   - Model Evaluation
+7. Final Model Training and Prediction
+   - Training the Final Model on the Entire Training Dataset
+   - Test Data Preprocessing
+   - Default Probability Prediction
+   - Submission Preparation
+8. Model Interpretation
+   - Feature Importance Analysis
+   - SHAP Analysis
 
 ## Technologies
 - Python

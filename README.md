@@ -17,7 +17,7 @@ The main objectives of this project are:
 - Interpret the model's results using feature importance and SHAP.
 
 ## Dataset
-- **UniqueID**:	Unique identifier for each customer record.
+- **UniqueID**:	Unique identifier for each record.
 - **disbursed_amount**:	Amount of the loan disbursed to the customer.
 - **asset_cost**:	Cost of the asset.
 - **ltv**: Loan-to-value of the asset.

@@ -68,8 +68,8 @@ The project workflow includes:
 3. Feature Engineering
 4. Feature Selection
 5. Data Preprocessing
-   - Missing Value Handling
-   - Categorical Feature Processing
+   - Feature Encoding
+   - Missing Value Imputation
 6. LightGBM Model Training and Evaluation
    - Train/Test Split
    - Model Training

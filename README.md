@@ -67,24 +67,23 @@ The project workflow includes:
    - Feature Transformation
 3. Feature Engineering
 4. Feature Selection
-5. LightGBM Model Training and Evaluation
+5. LightGBM Model Training and Hyperparameter Tuning
    - Data Preprocessing
      - Feature Encoding
      - Missing Value Imputation
-   - Stratified K-Fold Cross-Validation
-      - Model Training
-      - Model Evaluation using ROC AUC
-6. Hyperparameter Optimization with Optuna
-   - Hyperparameter Search
-   - Best Hyperparameter Selection
-   - Model Re-training with Optimized Hyperparameters
-   - Model Evaluation
-7. Final Model Training and Prediction
+   - Hyperparameter Optimization with Optuna
+     - Hyperparameter Search
+     - Stratified K-Fold Cross-Validation
+       - Model Training
+       - Model Evaluation using ROC AUC
+     - Best Hyperparameter Selection
+   - Final Model Training
+8. Final Model Training and Prediction
    - Training the Final Model on the Entire Training Dataset
    - Test Data Preprocessing
    - Default Probability Prediction
    - Submission Preparation
-8. Model Interpretation
+9. Model Interpretation
    - Feature Importance Analysis
    - SHAP Analysis
 

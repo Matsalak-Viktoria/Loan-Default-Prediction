@@ -71,9 +71,9 @@ The project workflow includes:
    - Data Preprocessing
      - Feature Encoding
      - Missing Value Imputation
-   - Train/Test Split
-   - Model Training
-   - Model Evaluation using ROC AUC
+   - Stratified K-Fold Cross-Validation
+      - Model Training
+      - Model Evaluation using ROC AUC
 6. Hyperparameter Optimization with Optuna
    - Hyperparameter Search
    - Best Hyperparameter Selection

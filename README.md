@@ -78,14 +78,14 @@ The project workflow includes:
        - Model Evaluation using ROC AUC
      - Best Hyperparameter Selection
    - Final Model Training
-8. Final Model Training and Prediction
+6. Model Interpretation
+   - Feature Importance Analysis
+   - SHAP Analysis
+7. Final Model Training and Prediction
    - Training the Final Model on the Entire Training Dataset
    - Test Data Preprocessing
    - Default Probability Prediction
    - Submission Preparation
-9. Model Interpretation
-   - Feature Importance Analysis
-   - SHAP Analysis
 
 ## Technologies
 - Python

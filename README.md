@@ -81,9 +81,17 @@ The project workflow includes:
 6. Model Interpretation
    - Feature Importance Analysis
    - SHAP Analysis
-7. Final Model Training and Prediction
-   - Training the Final Model on the Entire Training Dataset
-   - Test Data Preprocessing
+7. Test Data Preparation and Prediction
+   - Data Inspection
+   - Data Preparation
+     - Data Type Conversion
+     - Feature Transformation
+   - Feature Engineering
+   - Feature Selection
+   - Data Preprocessing
+     - Feature Encoding
+     - Missing Value Imputation
+   - Final Model Training
    - Default Probability Prediction
    - Submission Preparation
 

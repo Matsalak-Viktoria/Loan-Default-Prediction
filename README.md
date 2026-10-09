@@ -87,7 +87,7 @@ The project workflow includes:
    - Feature Selection
    - Data Preprocessing
    - Final Model Training
-   - Default Probability Prediction
+   - Loan Default Probability Prediction
    - Submission Preparation
 
 ## Technologies

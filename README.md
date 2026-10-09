@@ -82,7 +82,6 @@ The project workflow includes:
    - Feature Importance Analysis
    - SHAP Analysis
 7. Test Data Preparation and Prediction
-   - Data Inspection
    - Data Preparation
      - Data Type Conversion
      - Feature Transformation

@@ -83,13 +83,9 @@ The project workflow includes:
    - SHAP Analysis
 7. Test Data Preparation and Prediction
    - Data Preparation
-     - Data Type Conversion
-     - Feature Transformation
    - Feature Engineering
    - Feature Selection
    - Data Preprocessing
-     - Feature Encoding
-     - Missing Value Imputation
    - Final Model Training
    - Default Probability Prediction
    - Submission Preparation

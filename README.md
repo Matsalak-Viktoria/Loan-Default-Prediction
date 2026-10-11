@@ -95,6 +95,9 @@ The project workflow includes:
 - Pandas
 - NumPy
 - Scikit-learn
+- LightGBM
+- Optuna
+- SHAP
 - Matplotlib
 - Seaborn
 

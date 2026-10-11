@@ -103,39 +103,38 @@ The project workflow includes:
 
 ## Methods
 ### Data Preprocessing
-**For Outlier Detection**:
-- Missing value imputation (Median)
-- Feature scaling (StandardScaler)
-
-**For Model Training**:
 
 **Numerical features**:
 - Missing value imputation (Median)
-- Feature scaling (StandardScaler)
 
 **Categorical features**:
 - Missing value imputation (Most Frequent)
 - One-Hot Encoding
 
-### Outlier Detection
-- Isolation Forest
-
 ### Machine Learning Models
-- Logistic Regression
-- Gaussian Naive Bayes
-- Decision Tree
-- K-Nearest Neighbors (KNN)
+- LightGBM Classifier
 
 **Hyperparameters optimized**:
-- Logistic Regression: Regularization strength (C)
-- Decision Tree: Maximum tree depth (max_depth)
-- K-Nearest Neighbors (KNN): Number of neighbors (n_neighbors)
+- Learning rate (learning_rate)
+- Number of leaves (num_leaves)
+- Maximum tree depth (max_depth)
+- Minimum number of samples per leaf (min_child_samples)
+- L1 regularization (lambda_l1)
+- L2 regularization (lambda_l2)
+- Feature fraction (feature_fraction)
+- Bagging fraction (bagging_fraction)
+- Bagging frequency (bagging_freq)
 
 ### Validation Strategy
 **Train/Test Split + GridSearchCV**:
 - Train/Test split for final model evaluation
 - GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
 
+### Model Interpretation
+- Feature Importance Analysis
+- SHAP Analysis
+
 ### Evaluation Metrics
+- ROC AUC (Area Under the Receiver Operating Characteristic Curve)
 
 ## Results

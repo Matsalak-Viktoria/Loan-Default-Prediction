@@ -111,6 +111,10 @@ The project workflow includes:
 - Median (Numerical Features)
 - Mode (Categorical Features)
 
+### Feature Engineering
+- Age Feature Generation
+- Credit Account Age and Credit History Length Transformation (Months)
+
 ### Machine Learning Models
 - LightGBM Classifier
 

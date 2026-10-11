@@ -104,12 +104,12 @@ The project workflow includes:
 ## Methods
 ### Data Preprocessing
 
-**Numerical features**:
-- Missing value imputation (Median)
+**Feature Encoding**:
+- Frequency Encoding (Categorical ID Features)
 
-**Categorical features**:
-- Missing value imputation (Mode)
-- One-Hot Encoding
+**Missing Value Imputation**:
+- Median (Numerical Features)
+- Mode (Categorical Features)
 
 ### Machine Learning Models
 - LightGBM Classifier

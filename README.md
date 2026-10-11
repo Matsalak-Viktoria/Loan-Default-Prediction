@@ -126,9 +126,11 @@ The project workflow includes:
 - Bagging frequency (bagging_freq)
 
 ### Validation Strategy
-**Train/Test Split + GridSearchCV**:
-- Train/Test split for final model evaluation
-- GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
+**Optuna with Stratified K-Fold Cross-Validation**:
+- Optuna with 30 trials for hyperparameter optimization
+- Stratified 5-Fold Cross-Validation for model evaluation
+- Early stopping to prevent overfitting during cross-validation
+- Final model training on the entire training dataset
 
 ### Model Interpretation
 - Feature Importance Analysis

@@ -129,8 +129,7 @@ The project workflow includes:
 **Optuna with Stratified K-Fold Cross-Validation**:
 - Optuna with 30 trials for hyperparameter optimization
 - Stratified 5-Fold Cross-Validation for model evaluation
-- Early stopping to prevent overfitting during cross-validation
-- Final model training on the entire training dataset
+- Early stopping (100 rounds) to prevent overfitting during cross-validation
 
 ### Model Interpretation
 - Feature Importance Analysis

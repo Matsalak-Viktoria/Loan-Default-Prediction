@@ -64,7 +64,6 @@ The project workflow includes:
 1. Exploratory Data Analysis (EDA)
 2. Data Preparation
    - Data Type Conversion
-   - Feature Transformation
 3. Feature Engineering
 4. Feature Selection
 5. LightGBM Model Training and Hyperparameter Tuning
@@ -112,8 +111,8 @@ The project workflow includes:
 - Mode (Categorical Features)
 
 ### Feature Engineering
-- Age Feature Generation
-- Credit Account Age and Credit History Length Transformation (Months)
+- Feature Generation (Time-based Features)
+- Feature Transformation (Time Duration Conversion, Log Transformation)
 
 ### Machine Learning Models
 - LightGBM Classifier

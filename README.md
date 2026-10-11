@@ -131,11 +131,11 @@ The project workflow includes:
 - Stratified 5-Fold Cross-Validation for model evaluation
 - Early stopping (100 rounds) to prevent overfitting during cross-validation
 
+### Evaluation Metrics
+- ROC AUC (Area Under the Receiver Operating Characteristic Curve)
+
 ### Model Interpretation
 - Feature Importance Analysis
 - SHAP Analysis
-
-### Evaluation Metrics
-- ROC AUC (Area Under the Receiver Operating Characteristic Curve)
 
 ## Results

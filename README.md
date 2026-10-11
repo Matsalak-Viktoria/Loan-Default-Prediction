@@ -108,7 +108,7 @@ The project workflow includes:
 - Missing value imputation (Median)
 
 **Categorical features**:
-- Missing value imputation (Most Frequent)
+- Missing value imputation (Mode)
 - One-Hot Encoding
 
 ### Machine Learning Models

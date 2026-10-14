@@ -65,7 +65,8 @@ The project workflow includes:
 2. Data Preparation
    - Data Type Conversion
 3. Feature Engineering
-4. LightGBM Model Training and Hyperparameter Tuning
+4. Feature Selection
+5. LightGBM Model Training and Hyperparameter Tuning
    - Data Preprocessing
      - Feature Encoding
      - Missing Value Imputation
@@ -76,10 +77,10 @@ The project workflow includes:
        - Model Evaluation using ROC AUC
      - Best Hyperparameter Selection
    - Final Model Training
-5. Model Interpretation
+6. Model Interpretation
    - Feature Importance Analysis
    - SHAP Analysis
-6. Test Data Preparation and Prediction
+7. Test Data Preparation and Prediction
    - Data Preparation
    - Feature Engineering
    - Feature Selection

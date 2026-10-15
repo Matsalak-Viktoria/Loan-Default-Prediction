@@ -142,3 +142,9 @@ The project workflow includes:
 - SHAP Analysis
 
 ## Results
+The LightGBM model achieved the following ROC AUC scores:
+- Mean 5-Fold Cross-Validation ROC AUC: 0.6743
+- Kaggle Public Leaderboard ROC AUC: 0.865
+- Kaggle Private Leaderboard ROC AUC: 0.866
+
+**Kaggle Competition Result**: [View Leaderboard](https://www.kaggle.com/competitions/dan-it-data-science-step-project-1/leaderboard)
